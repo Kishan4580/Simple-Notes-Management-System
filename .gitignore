@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?   
+
+# Ignore coverage reports
+coverage/   
+.nyc_output/
+# Ignore temporary files
+*.tmp   
+*.temp
+*.bak
+*~
+
+# Ignore compiled files
+*.class
+*.dll   
+*.exe
+*.o
